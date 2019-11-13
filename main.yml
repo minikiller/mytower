@@ -1,0 +1,5 @@
+---
+- hosts: asb
+  tasks:
+    - name: "demo shell"
+      shell: echo helloworld I love ansible
